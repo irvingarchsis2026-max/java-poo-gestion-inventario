@@ -28,3 +28,14 @@ The system will allow:
 
 ## Status
 Initial structure in progress.
+## Current progress
+- Created Product class
+- Created Main class
+- Added basic inventory list
+- Printed products in console
+
+## Next steps
+- Add Inventory class
+- Search products by name
+- Update stock
+- Calculate total inventory value
