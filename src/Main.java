@@ -12,5 +12,11 @@ public class Main {
         System.out.println("---------------------------");
 
         inventory.listProducts();
-    }
+        Product foundProduct = inventory.findProductById(2);
+if (foundProduct != null) {
+    System.out.println("Search result: " + foundProduct);
+} else {
+    System.out.println("Product not found.");
+}
+}
 }

@@ -16,4 +16,12 @@ public class Inventory {
             System.out.println(product);
         }
     }
+    public Product findProductById(int id) {
+        for (Product product : products) {
+            if (product.getId() == id) {
+                return product;
+            }
+        }
+        return null;
+    }
 }
