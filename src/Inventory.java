@@ -24,4 +24,14 @@ public class Inventory {
         }
         return null;
     }
+    public boolean updateStock(int id, int newStock) {
+    Product product = findProductById(id);
+
+    if (product != null) {
+        product.setStock(newStock);
+        return true;
+    }
+
+    return false;
+    }
 }
